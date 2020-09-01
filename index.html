@@ -1,9 +1,100 @@
 <!DOCTYPE html>
-<html>
+<html lang = "es">
     <head>
+        <meta charset="utf-8">
+        <title>Proyecto con JavaScript</title>
 
+        <!--Estilos CSS-->
+        <link rel = "stylesheet" type = "text/css" href = "css/styles.css">
     </head>
     <body>
-        
+        <section id = "global">
+            <!--Cabecera-->
+            <header>
+                <div id = "logo">
+                    <h1>Proyecto JS</h1>
+                </div>
+                <div class = "clearfix"> 
+
+                </div>
+                <nav id = "menu">
+                    <ul>
+                        <li><a href = "#">Inicio</a></li>
+                        <li><a href = "#">Reloj</a></li>
+                        <li><a href = "#">Sobre Mi</a></li>
+                        <li><a href = "#">Contacto</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <!--Slider-->
+            <div id = "slider">
+
+            </div>
+            <!--Contenido-->
+            <section id = "content">
+                <div id = "posts">
+                    <article class = "post">
+                        <h2>Titulo del Articulo</h2>
+                        <span class = "date">Fecha de Publicacion</span>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dapibus, enim quis fermentum rhoncus, 
+                            dolor erat pellentesque mauris, ut molestie sem ex at sem. Donec felis leo, consequat non tempus 
+                            quis, vulputate in turpis. Cras eget eros nunc. Praesent iaculis tellus in nisl molestie, 
+                            malesuada ornare urna fermentum. Suspendisse velit tellus, interdum quis tellus ut, gravida gravida 
+                            erat. Sed viverra mollis metus, sed commodo felis fringilla a. Cras sed vulputate enim. Proin ipsum 
+                            neque, aliquam nec maximus a, porta quis ante.
+                        </p>
+                        <a href = "#" class = "button-more">Leer Más</a>
+                    </article>
+
+                    <article class = "post">
+                        <h2>Titulo del Articulo</h2>
+                        <span class = "date">Fecha de Publicacion</span>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dapibus, enim quis fermentum rhoncus, 
+                            dolor erat pellentesque mauris, ut molestie sem ex at sem. Donec felis leo, consequat non tempus 
+                            quis, vulputate in turpis. Cras eget eros nunc. Praesent iaculis tellus in nisl molestie, 
+                            malesuada ornare urna fermentum. Suspendisse velit tellus, interdum quis tellus ut, gravida gravida 
+                            erat. Sed viverra mollis metus, sed commodo felis fringilla a. Cras sed vulputate enim. Proin ipsum 
+                            neque, aliquam nec maximus a, porta quis ante.
+                        </p>
+                        <a href = "#" class = "button-more">Leer Más</a>
+                    </article>
+                </div>
+
+                <aside id = "sidebar">
+                    <div id = "about">
+                        <h4><span>¿Quien Soy?</span></h4>
+                        <img src = "img/caracol.jpg">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dapibus, enim quis fermentum rhoncus, 
+                            dolor erat pellentesque mauris, ut molestie sem ex at sem.  
+                        </p>
+                    </div>
+                    <div id = "login">
+                        <h4><span>Identificate</span></h4>
+                        <form>
+                            <Label for = "name">Nombre</Label>
+                            <input type = "text" name = "name">
+
+                            <Label for = "email">Correo</Label>
+                            <input type = "text" name = "email">
+
+                            <Label for = "password">Contraseña</Label>
+                            <input type = "password" name = "password">
+                            
+                            <input type = "submit" value = "Entrar">
+                        </form>
+                    </div>
+                </aside>
+
+                <div class = "clearfix">
+
+                </div>
+            </section>
+        </section>
+        <footer>
+            Carlos Torres &copy;
+        </footer>
     </body>
 </html>
